@@ -1,0 +1,15 @@
+[user]
+  email = doompilot@gmail.com
+  name = fluxrider
+[color]
+  diff = auto
+[alias]
+  st = status
+  co = checkout
+  flog = log --pretty=format:'%C(yellow)%h %C(green)(%cr) %C(blue)<%an>%C(reset) %s'
+  br = branch
+  tree = log --oneline --decorate --graph --all
+[core]
+	autocrlf = input
+[http]
+	cookiefile = /home/flux/.gitcookies
