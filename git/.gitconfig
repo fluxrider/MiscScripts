@@ -10,6 +10,7 @@
   br = branch
   tree = log --oneline --decorate --graph --all
 [core]
-	autocrlf = input
+  autocrlf = input
+  pager = diff-so-fancy | less --tabs=4 -RFX
 [http]
-	cookiefile = /home/flux/.gitcookies
+  cookiefile = /home/flux/.gitcookies
